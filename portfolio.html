@@ -51,11 +51,17 @@
         <ul class="contacts-header list">
           <li class="contacts-header__item">
             <a href="mailto:info@devstudio.com" class="contacts-header__link">
+              <svg class="contacts-header__icon" width="16" height="12">
+                <use href="./images/icons.svg#envelope"></use>
+              </svg>
               info@devstudio.com
             </a>
           </li>
           <li class="contacts-header__item">
             <a href="tel:+380961111111" class="contacts-header__link">
+              <svg class="contacts-header__icon" width="10" height="16">
+                <use href="./images/icons.svg#smartphone"></use>
+              </svg>
               +38 096 111 11 11
             </a>
           </li>
@@ -217,31 +223,87 @@
 
     <!-- Подвал страницы -->
     <footer class="page-footer">
-      <div class="container">
-        <!-- Логотип компании -->
-        <a href="./index.html" class="logo page-footer__logo" lang="en">
-          <span class="logo--accent">Web</span>Studio
-        </a>
+      <div class="container page-footer__wrapper">
+        <div>
+          <!-- Логотип компании -->
+          <a href="./index.html" class="logo page-footer__logo" lang="en">
+            <span class="logo--accent">Web</span>Studio
+          </a>
 
-        <!-- Контактная информация -->
-        <address class="address">
-          <!-- Адрес -->
-          г. Киев, пр-т Леси Украинки, 26
+          <!-- Контактная информация -->
+          <address class="page-footer__address">
+            <!-- Адрес -->
+            г. Киев, пр-т Леси Украинки, 26
 
-          <!-- Почта и телефон -->
-          <ul class="contacts-address list">
-            <li class="contacts-address__item">
-              <a href="mailto:info@example.com" class="contacts-address__link">
-                info@example.com
+            <!-- Почта и телефон -->
+            <ul class="contacts-address list">
+              <li class="contacts-address__item">
+                <a
+                  href="mailto:info@example.com"
+                  class="contacts-address__link"
+                >
+                  info@example.com
+                </a>
+              </li>
+              <li class="contacts-address__item">
+                <a href="tel:+380991111111" class="contacts-address__link">
+                  +38 099 111 11 11
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="page-footer__social">
+          <p class="page-footer__text"><b>присоединяйтесь</b></p>
+
+          <ul class="social-networks list">
+            <li class="social-networks__item">
+              <a
+                href=""
+                class="social-networks__link social-networks__link--follow"
+                aria-label="Ссылка на Instagram"
+              >
+                <svg class="social-networks__icon">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
               </a>
             </li>
-            <li class="contacts-address__item">
-              <a href="tel:+380991111111" class="contacts-address__link">
-                +38 099 111 11 11
+            <li class="social-networks__item">
+              <a
+                href=""
+                class="social-networks__link social-networks__link--follow"
+                aria-label="Ссылка на Twitter"
+              >
+                <svg class="social-networks__icon">
+                  <use href="./images/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-networks__item">
+              <a
+                href=""
+                class="social-networks__link social-networks__link--follow"
+                aria-label="Ссылка на Facebook"
+              >
+                <svg class="social-networks__icon">
+                  <use href="./images/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-networks__item">
+              <a
+                href=""
+                class="social-networks__link social-networks__link--follow"
+                aria-label="Ссылка на LinkedIn"
+              >
+                <svg class="social-networks__icon">
+                  <use href="./images/icons.svg#linkedin"></use>
+                </svg>
               </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
